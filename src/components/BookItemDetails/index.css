@@ -1,0 +1,236 @@
+.book-details-main-container {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  padding-top: 50px;
+  padding-bottom: 30px;
+  width: 90%;
+  max-width: 1110px;
+}
+.book-details-content-container {
+  margin-bottom: 60px;
+  border-radius: 16px;
+  padding: 30px;
+  background-color: rgb(250, 242, 242);
+}
+@media screen and (min-width: 768px) {
+  .book-details-content-container {
+    padding: 50px;
+  }
+}
+.book-details-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .book-details-container {
+    flex-direction: row;
+    align-items: center;
+  }
+}
+.book-details-pic {
+  width: 210px;
+  border-radius: 10px;
+}
+.basic-book-info-container {
+  margin-top: 23px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.book-title {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  color: #334155;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .book-title {
+    text-align: left;
+    font-size: 24px;
+  }
+}
+.book-author-name {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #475569;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .book-author-name {
+    text-align: left;
+    font-size: 18px;
+  }
+}
+.rating-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+@media screen and (min-width: 768px) {
+  .rating-container {
+    justify-content: flex-start;
+  }
+}
+.rating-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #475569;
+  margin: 0px;
+  margin-right: 10px;
+}
+@media screen and (min-width: 768px) {
+  .rating-text {
+    font-size: 18px;
+  }
+}
+.rating {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 300;
+  font-size: 17px;
+  color: #475569;
+  margin: 0px;
+  margin-left: 5px;
+}
+.status-text {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #475569;
+  text-align: center;
+}
+@media screen and (min-width: 768px) {
+  .status-text {
+    text-align: left;
+    font-size: 18px;
+  }
+}
+.status {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0284c7;
+  text-align: center;
+}
+.favouriteBtn {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 16px;
+  padding: 10px 20px;
+  color: #f8fafc;
+  background-color: #0284c7;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+.horizontal-line {
+  border: 0.5px solid #94a3b8;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+@media screen and (min-width: 768px) {
+  .horizontal-line {
+    border: 1px solid #94a3b8;
+    margin-bottom: 30px;
+    margin-top: 30px;
+  }
+}
+.bottom-section-heading {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  color: #334155;
+}
+@media screen and (min-width: 768px) {
+  .bottom-section-heading {
+    font-size: 24px;
+  }
+}
+.bottom-section-des {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  color: #475569;
+}
+@media screen and (min-width: 768px) {
+  .bottom-section-des {
+    font-size: 16px;
+  }
+}
+.loader-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.book-details-failure-view {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 80vh;
+}
+.failure-view-img {
+  width: 250px;
+  height: 120px;
+}
+@media screen and (min-width: 768px) {
+  .failure-view-img {
+    width: 450px;
+    height: 230px;
+  }
+}
+.failure-view-description {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  text-align: center;
+  color: #475569;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+@media screen and (min-width: 768px) {
+  .failure-view-description {
+    font-size: 16px;
+  }
+}
+.tryAgain-btn {
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 12px;
+  padding: 10px 20px;
+  color: #f8fafc;
+  background-color: #0284c7;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  outline: none;
+}
+.dark-theme-heading {
+  color: #ffffff;
+}
+.dark-theme-description {
+  color: #d3d3d3;
+}
+
+.booksDetails-darkBg-Container {
+  background-color: #272727;
+}

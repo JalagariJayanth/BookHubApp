@@ -1,0 +1,51 @@
+.book-shelf-item {
+  margin-right: 20px;
+  margin-bottom: 25px;
+}
+@media screen and (min-width: 768px) {
+  .book-shelf-item {
+    margin-right: 0px;
+  }
+}
+.book-shelf-button {
+  color: #0284c7;
+  background-color: transparent;
+  padding: 4px 8px;
+  border: 1px solid #0284c7;
+  border-radius: 25px;
+  font-family: 'Inter';
+  font-weight: 500;
+  font-size: 12px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (min-width: 768px) {
+  .book-shelf-button {
+    border: none;
+    padding: 0px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+    color: #64748b;
+    font-weight: 700;
+    font-size: 16px;
+  }
+}
+
+.dark-theme-text-color {
+  color: #d3d3d3;
+}
+
+.active-item {
+  background-color: #0284c7;
+  border: 1px solid #0284c7;
+  border-radius: 25px;
+  color: #ffffff;
+}
+@media screen and (min-width: 768px) {
+  .active-item {
+    color: #0284c7;
+    background: transparent;
+    border: none;
+  }
+}
